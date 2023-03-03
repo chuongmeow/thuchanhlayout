@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px auto;
+        }
+        
+        .wrapper {
+            height: 700px;
+            width: 1089px;
+            background-color: blueviolet;
+            border: 4px solid red;
+        }
+        
+        header {
+            height: 120px;
+            width: 1089px;
+            background-color: blueviolet;
+            position: relative;
+        }
+        
+        .top-menu li {
+            width: 120px;
+            height: 45px;
+            border-radius: 10px;
+            border: 2px dotted yellow;
+            background-color: aquamarine;
+            line-height: 45px;
+            text-indent: 20px;
+            list-style: none;
+            position: absolute;
+            top: 50px;
+            left: 400px;
+        }
+        
+        .top-menu li:first-child {
+            top: 50px;
+            left: 300px;
+        }
+        
+        .top-menu li:last-child {
+            top: 50px;
+            left: 900px;
+        }
+        
+        .top-menu li:nth-child(4) {
+            top: 50px;
+            left: 770px;
+        }
+        
+        .top-menu li:nth-child(3) {
+            top: 50px;
+            left: 640px;
+        }
+        
+        .top-menu li:nth-child(2) {
+            top: 50px;
+            left: 510px;
+        }
+        
+        .top-menu li:nth-child(1) {
+            top: 50px;
+            left: 380px;
+        }
+        
+        nav {
+            height: 45px;
+            width: 100%;
+            background-color: brown;
+        }
+        
+        .content {
+            height: 400px;
+            width: 100%;
+            background-color: rgb(40, 32, 153);
+        }
+        
+        #asl {
+            height: 100px;
+            width: 30%;
+            background-color: rgb(9, 73, 70);
+            float: left;
+        }
+        
+        #asr {
+            height: 100px;
+            width: 30%;
+            background-color: rgb(6, 83, 47);
+            float: left;
+        }
+        
+        section {
+            height: 100px;
+            width: 40%;
+            background-color: rgb(75, 6, 49);
+            float: left;
+        }
+        
+        footer {
+            height: 100px;
+            width: 40%;
+            background-color: rgb(40, 3, 41);
+        }
+        
+        .menu li {
+            height: 45px;
+            width: 120px;
+            background-color: rgb(172, 142, 160);
+            float: left;
+            line-height: 45px;
+            text-indent: 20px;
+            list-style: none;
+        }
+        
+        li a {
+            text-decoration: none;
+            color: bisque;
+            font-weight: bold;
+        }
+        
+        .menu li:hover {
+            background-color: darkcyan;
+        }
+        
+        li:hover>a {
+            color: darksalmon;
+            font-style: italic;
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>Dau trang
+            <ul class="top-menu">
+                <li><a href="http://iuh.edu.vn">Home</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Help</a></li>
+            </ul>
+        </header>
+        <nav>
+            <ul class="menu">
+                <li><a href="http://iuh.edu.vn">Home</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Help</a></li>
+            </ul>
+        </nav>
+        <div class="content">
+            <aside id="asl">
+                left
+            </aside>
+            <section>
+                center
+            </section>
+            <aside id="asr">
+                right
+            </aside>
+        </div>
+
+
+
+    </div>
+
+
+
+</body>
+
+</html>
